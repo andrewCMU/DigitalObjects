@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" TYPE="atypon-blog">
+  <mets:dmdSec xmlns:mets="http://www.loc.gov/METS/" ID="DMD">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods xmlns="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods.xsd">
+          <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="doi">10.0000/atyponblog.8751.8432</mods:identifier>
+          <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" ID="title">
+            <mods:title>30th October maintenance release postponed by one day</mods:title>
+          </mods:titleInfo>
+          <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+            <atpn:do-extensions xmlns:atpn="http://www.atypon.com/digital-objects" xsi:schemaLocation="http://www.atypon.com/digital-objects http://www.atypon.com/digital-objects/digital-objects.xsd">
+              <atpn:pubdate encoding="iso8601">2018-10-30T13:54:08+00:00</atpn:pubdate>
+              <atpn:abstract><![CDATA[<html><body><p>Atypon has determined that the regular maintenance release scheduled for today, 30th October, is to be postponed by one day to tomorrow, 31th October, to allow for additional testing.
+
+...</p></body></html>]]></atpn:abstract>
+              <atpn:body><![CDATA[Atypon has determined that the regular maintenance release scheduled for today, 30th October, is to be postponed by one day to tomorrow, 31th October, to allow for additional testing.
+
+]]></atpn:body>
+            </atpn:do-extensions>
+          </mods:extension>
+        </mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:structMap xmlns:mets="http://www.loc.gov/METS/">
+    <mets:div></mets:div>
+  </mets:structMap>
+</mets>

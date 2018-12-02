@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/METS/" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" TYPE="atypon-blog/class">
+    <mets:dmdSec xmlns:mets="http://www.loc.gov/METS/" ID="DMD">
+        <mets:mdWrap MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods.xsd">
+                    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="doi">10.0000/atyponblog_storyclass</mods:identifier>
+                    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+                        <mods:title>Atypon Blog Storyclass</mods:title>
+                    </mods:titleInfo>
+		    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">  
+                        <atpn:do-extensions xmlns:atpn="http://www.atypon.com/digital-objects" xsi:schemaLocation="http://www.atypon.com/digital-objects http://www.atypon.com/digital-objects/digital-objects.xsd"> 
+		               <atpn:pubdate encoding="iso8601">2018-01-01T00:00:00.000+00:00</atpn:pubdate>
+		               <atpn:body><![CDATA[]]></atpn:body>
+                        </atpn:do-extensions>            
+                    </mods:extension> 
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+
+    <mets:fileSec xmlns:mets="http://www.loc.gov/METS/" >
+        <mets:fileGrp ID="simple-grp">
+            <mets:file ID="abs.hbs">
+                <mets:FLocat LOCTYPE="URL" xlink:href="/templates/abs.hbs"/>
+            </mets:file>
+            <mets:file ID="full.hbs">
+                <mets:FLocat LOCTYPE="URL" xlink:href="/templates/full.hbs"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp ID="media-grp">
+            <mets:file ID="audio.mp3">
+                <mets:FLocat LOCTYPE="URL" xlink:href="/media/audio.mp3"/>
+            </mets:file>
+    </mets:fileSec>
+    
+    <mets:structMap xmlns:mets="http://www.loc.gov/METS/">
+        <mets:div>
+            <mets:div ID="abs">
+                <mets:div ID="abs-template" TYPE="inline-template">
+                    <mets:fptr FILEID="abs.hbs"/>
+                </mets:div>
+            </mets:div>
+            <mets:div ID="full">
+                <mets:div ID="full-template" TYPE="inline-template">
+                    <mets:fptr FILEID="full.hbs"/>
+                </mets:div>
+                <mets:div ID="full-template" TYPE="inline-template">
+                    <mets:fptr FILEID="full.hbs"/>
+                </mets:div>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets>
